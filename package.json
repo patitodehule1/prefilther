@@ -1,0 +1,19 @@
+{
+  "name": "prefilther",
+  "version": "1.0.0",
+  "description": "Deterministic Docker log compressor for LLMs. Strips noise, deduplicates, extracts errors, emits compact TOON output.",
+  "type": "module",
+  "bin": {
+    "prefilther": "./prefilter.ts"
+  },
+  "scripts": {
+    "start": "npx tsx prefilter.ts",
+    "build": "npx tsc"
+  },
+  "keywords": ["docker", "logs", "llm", "claude", "token", "compression"],
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
