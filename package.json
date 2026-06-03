@@ -10,9 +10,17 @@
     "start": "npx tsx prefilter.ts",
     "build": "npx tsc"
   },
-  "keywords": ["docker", "logs", "llm", "claude", "token", "compression"],
+  "keywords": [
+    "docker",
+    "logs",
+    "llm",
+    "claude",
+    "token",
+    "compression"
+  ],
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^25.9.1",
     "tsx": "^4.0.0",
     "typescript": "^5.0.0"
   }
